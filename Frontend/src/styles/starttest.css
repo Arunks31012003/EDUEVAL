@@ -1,0 +1,433 @@
+/* StartTest.css - Consistent styling for all test types */
+@import url('./dashboard.css');
+
+/* Main container styling - box container similar to speaking test */
+.start-test-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    padding: 32px;
+}
+
+/* Test header styling */
+.test-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.test-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5a67d8;
+    margin-bottom: 8px;
+}
+
+.test-subtitle {
+    font-size: 16px;
+    color: #647dee;
+    margin-bottom: 16px;
+}
+
+/* Timer display styling */
+.timer-display {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #647dee;
+}
+
+/* Question container - box styling */
+.question-container {
+    background: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Listening section container */
+.listening-section-container {
+    background: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.listening-section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a67d8;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+/* Question styling */
+.question-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+/* Options grid styling */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.option-label:hover {
+    background: #f7fafc;
+    border-color: #cbd5e0;
+}
+
+.option-label input {
+    margin-right: 12px;
+}
+
+/* Fill in blanks styling */
+.blank-input-field {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.blank-input-field:focus {
+    outline: none;
+    border-color: #5a67d8;
+    box-shadow: 0 0 0 2px rgba(90, 103, 216, 0.2);
+}
+
+/* Textarea styling */
+.textarea-answer {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.textarea-answer:focus {
+    outline: none;
+    border-color: #5a67d8;
+    box-shadow: 0 0 0 2px rgba(90, 103, 216, 0.2);
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-container.space-between {
+    justify-content: space-between;
+}
+
+/* Primary button styling - consistent with speaking test */
+.primary-button {
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.primary-button:hover {
+    background-color: #434190;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.primary-button:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Large primary button for main actions */
+.primary-button-large {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Start test button - green variant */
+.start-test-button {
+    background-color: #00bfa6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.start-test-button:hover {
+    background-color: #009f8a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Question progress grid */
+.question-progress-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.question-progress-button {
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.question-progress-button.current {
+    background-color: #5a67d8;
+    color: white;
+    transform: scale(1.1);
+}
+
+.question-progress-button.answered {
+    background-color: #00bfa6;
+    color: white;
+}
+
+.question-progress-button.unanswered {
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+
+.question-progress-button:hover:not(:disabled) {
+    transform: scale(1.05);
+}
+
+/* Audio player styling */
+.audio-player-container {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.audio-player {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Image styling */
+.question-image {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px auto;
+    display: block;
+}
+
+/* Loading and error states */
+.loading-container,
+.error-container {
+    text-align: center;
+    padding: 40px;
+    color: #5a67d8;
+}
+
+.error-container {
+    color: #e53e3e;
+}
+
+/* Info box styling */
+.info-box {
+    background: #f0f4ff;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.info-box p {
+    margin: 0;
+    color: #4a5568;
+}
+
+/* Test Complete screen */
+.test-complete-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 80vh; /* Use min-height to adapt to content, but ensure decent height */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Ensure text is centered within this container */
+    max-width: 600px; /* Limit width for readability */
+    margin: 40px auto; /* Center on larger screens */
+}
+
+
+/* Test instructions */
+.test-instructions {
+    background: #f0f4ff;
+    border-left: 4px solid #5a67d8;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+.test-instructions p {
+    margin: 0;
+    color: #4a5568;
+}
+
+
+/* --- Mobile Responsive View (max-width: 768px) --- */
+@media (max-width: 768px) {
+    .start-test-container {
+        margin: 20px; /* Reduced margin for smaller screens */
+        padding: 20px; /* Reduced padding */
+        border-radius: 12px; /* Slightly smaller border radius */
+    }
+
+    .test-title {
+        font-size: 20px; /* Smaller font size for mobile titles */
+    }
+
+    .test-subtitle,
+    .timer-display {
+        font-size: 16px; /* Smaller font for subtitles and timer */
+    }
+
+    .question-container,
+    .listening-section-container {
+        padding: 15px; /* Reduced padding for question boxes */
+        margin-bottom: 15px;
+    }
+
+    .listening-section-title {
+        font-size: 18px; /* Slightly smaller listening section title */
+    }
+
+    .question-text {
+        font-size: 16px; /* Smaller question text */
+        margin-bottom: 12px;
+    }
+
+    .options-grid {
+        gap: 8px; /* Reduced gap between options */
+    }
+
+    .option-label {
+        padding: 10px; /* Reduced padding for options */
+        font-size: 15px; /* Slightly smaller option text */
+    }
+
+    .blank-input-field,
+    .textarea-answer {
+        padding: 10px; /* Reduced input/textarea padding */
+        font-size: 15px; /* Reduced input/textarea font size */
+        min-height: 100px; /* Slightly smaller minimum height for textarea */
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Stretch buttons to full width */
+        gap: 10px; /* Reduced gap between stacked buttons */
+        margin-top: 20px;
+    }
+
+    .primary-button,
+    .primary-button-large,
+    .start-test-button {
+        width: 100%; /* Make buttons full width */
+        padding: 10px 15px; /* Adjusted padding for full-width buttons */
+        font-size: 15px; /* Adjusted font size */
+    }
+
+    .question-progress-grid {
+        grid-template-columns: repeat(auto-fill, minmax(35px, 1fr)); /* Smaller grid items for progress */
+        gap: 6px; /* Reduced gap */
+        margin-top: 12px;
+    }
+
+    .question-progress-button {
+        padding: 8px; /* Reduced padding for progress buttons */
+        font-size: 12px; /* Smaller font size for progress numbers */
+    }
+
+    .audio-player-container {
+        margin: 12px 0;
+    }
+
+    .audio-player {
+        max-width: 300px; /* Adjust max-width for audio player */
+    }
+
+    .question-image {
+        margin: 12px auto;
+    }
+
+    .loading-container,
+    .error-container {
+        padding: 20px; /* Reduced padding for loading/error messages */
+        font-size: 16px;
+    }
+
+    .info-box {
+        padding: 12px; /* Reduced padding for info box */
+        margin-bottom: 12px;
+    }
+
+    .test-complete-container {
+        margin: 20px; /* Reduced margin for mobile */
+        padding: 20px; /* Reduced padding for mobile */
+        min-height: unset; /* Allow height to adapt to content */
+        box-shadow: none; /* Remove shadow for a flatter mobile look */
+        border-radius: 8px; /* Consistent border radius */
+    }
+
+    .test-instructions {
+        padding: 12px; /* Reduced padding for instructions */
+        margin-bottom: 15px;
+        border-radius: 0 6px 6px 0;
+    }
+}

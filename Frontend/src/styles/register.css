@@ -1,0 +1,242 @@
+/* Reset any inherited styles (copied from login.css for consistency) */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+/* General page layout (copied from login.css for consistency) */
+.login-page { /* This class is used for the overall page wrapper */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #301b45, #a7b7ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Container for register form - Desktop Specific */
+.register-container {
+    display: flex;
+    height: 100vh; /* Specific height for register on desktop */
+    width: 100%; /* Specific width for register on desktop */
+    max-width: 1000px; /* Inherited/copied for consistency with login-container */
+    background-color: white; /* Inherited/copied for consistency with login-container */
+    border-radius: 20px; /* Inherited/copied for consistency with login-container */
+    overflow: hidden; /* Inherited/copied for consistency with login-container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Inherited/copied for consistency with login-container */
+    position: relative; /* Inherited/copied for consistency with login-container */
+    margin: 0; /* Inherited/copied for consistency with login-container */
+    padding: 0; /* Inherited/copied for consistency with login-container */
+}
+
+/* Left section: Welcome/Info box for Register */
+.register-left {
+    flex: 1;
+    background: linear-gradient(135deg, #7f5af0, #4c6ef5);
+    color: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.register-left h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.register-left p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Right section: Register form */
+.register-right {
+    flex: 1;
+    background: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.register-right h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.register-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.register-right input {
+    padding: 12px 18px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+}
+
+.register-right button {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.register-right button:hover {
+    opacity: 0.9;
+    background: linear-gradient(to right, #dd2476, #ff512f); /* Changed gradient direction on hover */
+}
+
+/* Highlight text for Register links */
+.highlight-text { /* Copied for consistency */
+    color: #ee0979;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.switch-auth { /* Copied for consistency */
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.switch-auth span { /* Copied for consistency */
+    color: #ff006a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Home button (copied for consistency if used on register page) */
+.home-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #6366f1;
+    border: 2px solid #6366f1;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.home-button:hover {
+    background: #6366f1;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Mobile Responsiveness for Register Page --- */
+@media (max-width: 768px) {
+    .login-page { /* Keep general page layout responsive rules */
+        padding: 20px;
+        justify-content: flex-start;
+        overflow-y: auto;
+        position: static;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .register-container {
+        flex-direction: column; /* Stack sections vertically on mobile */
+        width: 100%; /* Take full width of parent (with padding) */
+        max-width: 450px; /* Max width for better form readability on slightly larger phones/small tablets */
+        margin: 20px auto; /* Center the container and add vertical spacing */
+        min-height: auto; /* Allow height to shrink for small forms */
+        border-radius: 20px; /* Ensure consistent border-radius on mobile */
+    }
+
+    .register-left {
+        padding: 30px; /* Reduced padding for mobile */
+        text-align: center; /* Center text for mobile */
+        order: 1; /* Keep welcome section at the top */
+        border-radius: 0; /* Remove specific desktop border-radius */
+        border-top-left-radius: 20px; /* Apply rounded corners only to top on mobile */
+        border-top-right-radius: 20px;
+    }
+
+    .register-left h2 {
+        font-size: 1.8rem; /* Smaller heading for mobile */
+        margin-bottom: 15px;
+    }
+
+    .register-left p {
+        font-size: 0.9rem; /* Smaller paragraph text */
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .register-right {
+        padding: 30px; /* Reduced padding for mobile form */
+        order: 2; /* Form section comes after welcome */
+        border-radius: 0; /* Remove specific desktop border-radius */
+        border-bottom-left-radius: 20px; /* Apply rounded corners only to bottom on mobile */
+        border-bottom-right-radius: 20px;
+    }
+
+    .register-right h2 {
+        font-size: 1.6rem; /* Smaller form heading */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .register-right input {
+        padding: 10px 15px; /* Slightly smaller padding for inputs */
+        font-size: 0.95rem; /* Smaller font size for inputs */
+        margin-bottom: 10px; /* Adjusted margin for consistency */
+    }
+
+    .register-right button {
+        padding: 10px 20px; /* Adjusted button padding */
+        font-size: 1rem; /* Adjusted button font size */
+        margin-top: 10px; /* Ensure some space above button */
+    }
+
+    .switch-auth { /* Copied for consistency */
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.95rem;
+    }
+
+    /* Adjust Home button for mobile (copied for consistency) */
+    .home-button {
+        position: static;
+        margin: 20px auto 0 auto;
+        width: fit-content;
+        display: block;
+        padding: 8px 18px;
+        font-size: 0.85rem;
+    }
+}

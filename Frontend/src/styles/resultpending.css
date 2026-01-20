@@ -1,0 +1,39 @@
+/* resultpending.css */
+.pending-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px; /* Add some general padding */
+}
+
+.pending-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pending-container p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* --- Mobile Responsive View (max-width: 768px) --- */
+@media (max-width: 768px) {
+    .pending-container {
+        min-height: 60vh; /* Slightly less height on mobile to account for other elements */
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .pending-container h2 {
+        font-size: 20px; /* Smaller heading on mobile */
+        margin-bottom: 8px;
+    }
+
+    .pending-container p {
+        font-size: 16px; /* Smaller paragraph text on mobile */
+    }
+}

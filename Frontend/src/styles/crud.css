@@ -1,0 +1,464 @@
+/* src/styles/crud.css - Modified for Tailwind Integration */
+
+/* Removed: html, body { background-color: white !important; } to allow dashboard.css to control overall background */
+
+/* General content section styling - Tailwind will handle most of this */
+.manage-section {
+    padding: 20px;
+    /* background-color: #fff; */ /* Handled by Tailwind */
+    /* border-radius: 8px; */ /* Handled by Tailwind */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */ /* Handled by Tailwind */
+    margin-top: 20px;
+}
+
+.manage-section h3 {
+    color: #333; /* Keep specific text colors if not using Tailwind's text-color utilities */
+    margin-bottom: 20px;
+}
+
+/* Buttons - Tailwind will handle most of this */
+.add-btn {
+    background-color: #007bff; /* Handled by Tailwind */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.add-btn:hover {
+    background-color: #0056b3; /* Handled by Tailwind */
+}
+
+/* Forms (Add/Edit) - Tailwind will handle most of this */
+.form-panel {
+    background-color: white; /* Explicitly white background for forms */
+    padding: 20px;
+    border-radius: 8px; /* Added back for forms */
+    border: 1px solid #ddd; /* Light border for forms */
+    margin-bottom: 20px;
+}
+
+.form-panel h4 {
+    margin-top: 0;
+    color: #333; /* Changed to dark for white background */
+}
+
+.form-panel form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Changed to dark for white background */
+}
+
+.form-panel form input[type="text"],
+.form-panel form input[type="email"],
+.form-panel form input[type="password"],
+.form-panel form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Changed border to light gray */
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333; /* Ensure input text is dark */
+    background-color: #fff; /* Ensure input background is white */
+}
+
+.form-panel form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 15px;
+    background-color: #0056b3;
+}
+
+/* Specific button styles - Tailwind will handle these */
+.form-panel .submit-btn {
+    /* background-color: #28a745; */
+    color: white;
+}
+
+.form-panel .submit-btn:hover {
+    background-color: #218838;
+}
+
+.form-panel .cancel-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.form-panel .cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Details Panel - Tailwind will handle most of this */
+.details-panel {
+    background-color: white; /* Explicitly white for details panel */
+    padding: 20px;
+    border-radius: 8px; /* Added back for details panel */
+    border: 1px solid #aaddff; /* Light blue border */
+    margin-bottom: 20px;
+}
+
+.details-panel h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.details-panel p {
+    margin-bottom: 8px;
+    color: #333; /* Ensure text is dark */
+}
+
+.details-panel .back-btn {
+    /* background-color: #6c757d; */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.details-panel .back-btn:hover {
+    background-color: #5a6268;
+}
+
+
+/* Table Styling - Keep these as they are more specific */
+.table-container {
+    overflow-x: auto; /* Ensures horizontal scrolling for tables if content overflows */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255); /* Explicitly white for tables */
+}
+
+table th,
+table td {
+    border: 2px solid #000000; /* Black borders for table */
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e0e0e0; /* Light gray header */
+    font-weight: bold;
+    color: black;
+}
+
+.manage-section table th,
+.manage-section table td {
+    color: black !important; /* Ensure all table text is black */
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Very light gray for even rows */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Slightly darker gray on hover */
+}
+
+table td button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+table td .view-btn {
+    background-color: #17a2b8;
+    color: white;
+}
+table td .view-btn:hover {
+    background-color: #138496;
+}
+
+table td .edit-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+table td .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+table td .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+table td .delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Error Message */
+.error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* overview page - Modified for Tailwind Integration */
+
+.overview-section-container {
+    padding: 32px;
+    background-color: #ffffff; /* Explicitly white */
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    margin: 32px auto;
+    text-align: center;
+    max-width: 1400px;
+}
+
+.overview-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #6b21a8; /* Dark purple for headings */
+}
+
+.overview-boxes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.overview-card-plain {
+    background-color: #ffffff; /* Explicitly white for cards */
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview-card-plain:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.overview-card-plain h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f2937; /* Dark gray for headings */
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.overview-card-plain .stats-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.overview-card-plain .stats-list li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #333; /* Dark gray for list items */
+}
+
+.overview-card-plain .stat-label {
+    font-weight: normal;
+}
+
+.overview-card-plain .stat-value {
+    font-weight: bold;
+}
+
+.chart-container {
+    width: 100%;
+    height: 180px;
+    margin-top: 15px;
+}
+
+/* --- Mobile Responsive View (max-width: 768px) --- */
+@media (max-width: 768px) {
+    .manage-section {
+        padding: 15px; /* Reduced padding */
+        margin-top: 15px; /* Reduced margin */
+    }
+
+    .manage-section h3 {
+        font-size: 1.5rem; /* Smaller heading */
+        margin-bottom: 15px;
+    }
+
+    .add-btn {
+        padding: 8px 12px; /* Smaller button padding */
+        font-size: 0.9rem; /* Smaller font size */
+        margin-bottom: 15px;
+    }
+
+    .form-panel {
+        padding: 15px; /* Reduced form padding */
+        margin-bottom: 15px;
+    }
+
+    .form-panel h4 {
+        font-size: 1.2rem; /* Smaller form heading */
+    }
+
+    .form-panel form input[type="text"],
+    .form-panel form input[type="email"],
+    .form-panel form input[type="password"],
+    .form-panel form select {
+        width: 100%; /* Ensure full width */
+        padding: 8px; /* Reduced input padding */
+        font-size: 0.9rem; /* Smaller input font */
+    }
+
+    .form-panel form button {
+        padding: 8px 15px; /* Smaller button padding */
+        font-size: 0.9rem; /* Smaller button font */
+        margin-right: 8px;
+        margin-top: 10px;
+    }
+
+    .details-panel {
+        padding: 15px; /* Reduced details panel padding */
+        margin-bottom: 15px;
+    }
+
+    .details-panel h4 {
+        font-size: 1.2rem;
+    }
+
+    .details-panel p {
+        font-size: 0.9rem;
+    }
+
+    .details-panel .back-btn {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+        margin-top: 10px;
+    }
+
+    /* Table adjustments */
+    table {
+        margin-top: 15px;
+    }
+
+    table th,
+    table td {
+        padding: 8px; /* Reduced table cell padding */
+        font-size: 0.8rem; /* Smaller table font size */
+    }
+
+    table td button {
+        padding: 4px 8px; /* Smaller table button padding */
+        margin-right: 3px;
+        font-size: 0.8em;
+    }
+
+    /* Overview page adjustments */
+    .overview-section-container {
+        padding: 20px; /* Reduced padding */
+        margin: 20px auto; /* Reduced margin */
+    }
+
+    .overview-title {
+        font-size: 24px; /* Smaller title */
+        margin-bottom: 16px;
+    }
+
+    .overview-boxes-wrapper {
+        grid-template-columns: 1fr; /* Stack cards in a single column */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .overview-card-plain {
+        padding: 20px; /* Reduced card padding */
+    }
+
+    .overview-card-plain h3 {
+        font-size: 18px; /* Smaller card heading */
+    }
+
+    .overview-card-plain .stats-list li {
+        font-size: 0.9rem; /* Smaller list item font */
+    }
+
+    .chart-container {
+        height: 150px; /* Adjust chart height for mobile */
+        margin-top: 10px;
+    }
+}
+
+/* --- Super Admin Specific Styles --- */
+.manage-section h3.superadmin-title {
+    color: #6b21a8; /* Purple for super admin */
+}
+
+.manage-section.superadmin .add-btn {
+    background-color: #6b21a8; /* Purple background */
+    color: white;
+}
+
+.manage-section.superadmin .add-btn:hover {
+    background-color: #581c87; /* Darker purple */
+}
+
+.manage-section.superadmin .form-panel {
+    border-color: #a855f7; /* Light purple border */
+}
+
+.manage-section.superadmin .details-panel {
+    border-color: #a855f7; /* Light purple border */
+}
+
+.manage-section.superadmin table th {
+    background-color: #ede9fe; /* Very light purple header */
+    color: #6b21a8; /* Purple text */
+}
+
+.manage-section.superadmin table tr:hover {
+    background-color: #f3e8ff; /* Light purple hover */
+}
+
+.manage-section.superadmin .view-btn {
+    background-color: #8b5cf6; /* Purple view button */
+}
+
+.manage-section.superadmin .view-btn:hover {
+    background-color: #7c3aed;
+}
+
+.manage-section.superadmin .edit-btn {
+    background-color: #a855f7; /* Light purple edit */
+}
+
+.manage-section.superadmin .edit-btn:hover {
+    background-color: #9333ea;
+}
+
+.manage-section.superadmin .delete-btn {
+    background-color: #dc2626; /* Keep red for delete */
+}
+
+.manage-section.superadmin .delete-btn:hover {
+    background-color: #b91c1c;
+}
