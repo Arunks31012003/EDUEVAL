@@ -1,0 +1,57 @@
+TYPE,TITLE,VALUE
+PASSAGE,"The Hidden World of Fungi","Fungi are among the most diverse and ecologically important groups of organisms on Earth, yet they remain one of the least understood. Unlike plants, fungi do not photosynthesise, and unlike animals, they do not move in search of food. Instead, they secrete enzymes into their environment to break down organic matter, absorbing nutrients directly. This unique method of survival has allowed fungi to occupy a wide variety of ecological niches.
+
+Many fungi are essential decomposers, recycling nutrients back into ecosystems. Without them, forests would be littered with dead wood and plant debris. Other fungi form symbiotic relationships with plants, helping them absorb water and minerals from the soil in exchange for carbohydrates. These relationships, called mycorrhizae, are so vital that many plant species cannot survive without them.
+
+However, not all fungi are beneficial. Some are pathogens, infecting plants, animals, and humans. The Irish Potato Famine of the 1840s, for instance, was caused by a fungal-like organism that wiped out potato crops, leading to mass starvation. Today, fungal infections still cause significant losses in agriculture and pose challenges in medicine, where they can be difficult to treat.
+
+Despite their importance, fungi remain under-researched. Scientists estimate that there may be over 5 million fungal species, but only around 150,000 have been formally described. With new techniques in DNA sequencing, researchers are beginning to uncover the hidden diversity of fungi and their roles in ecosystems. This growing understanding could have major implications, from developing new antibiotics to creating sustainable alternatives to plastics."
+TRUE_FALSE_QUESTION,"Fungi produce their own food through photosynthesis.",FALSE
+TRUE_FALSE_QUESTION,"Some plants depend on fungi to survive.",TRUE
+TRUE_FALSE_QUESTION,"Fungi played a role in a major historical famine.",TRUE
+TRUE_FALSE_QUESTION,"Every fungal species has already been discovered by scientists.",FALSE
+TRUE_FALSE_QUESTION,"Fungal infections are never a problem in modern agriculture.",FALSE
+TRUE_FALSE_QUESTION,"DNA sequencing is helping scientists learn more about fungi.",TRUE
+QUESTION,"How do fungi obtain nutrients?","By photosynthesis","By hunting prey","By breaking down organic matter externally","By storing sunlight in enzymes",C
+QUESTION,"Mycorrhizae are:","Plant diseases","Symbiotic relationships between fungi and plants","Fungal infections in humans","Soil nutrients",B
+QUESTION,"The Irish Potato Famine was caused by:","A lack of rainfall","A fungal-like organism","An insect invasion","Poor farming practices",B
+QUESTION,"A possible benefit of studying fungi is:","Eliminating the need for agriculture","Creating alternatives to plastics","Reducing the human population","Preventing all plant diseases",B
+FILL_BLANK_QUESTION,"Many fungi recycle nutrients as [BLANK].",,,,,,,,"decomposers"
+FILL_BLANK_QUESTION,"Some fungal species can act as [BLANK].",,,,,,,,"pathogens"
+FILL_BLANK_QUESTION,"Scientists believe there are more than [BLANK] fungal species.",,,,,,,,"5 million"
+
+PASSAGE,"The Rise of Electric Vehicles (EVs)","The global automotive industry is undergoing a profound transformation as electric vehicles (EVs) become increasingly mainstream. For decades, the reliance on fossil fuels has not only shaped transport but also contributed to climate change and air pollution. EVs, powered by batteries rather than internal combustion engines, offer a cleaner alternative.
+
+Governments worldwide are pushing for EV adoption. Many countries have set ambitious targets to phase out petrol and diesel cars within the next 10–20 years. Incentives such as subsidies, tax breaks, and investment in charging infrastructure are designed to encourage consumers to make the switch.
+
+However, the transition is not without challenges. Battery production requires large amounts of lithium, cobalt, and nickel, raising concerns about supply shortages and environmental damage from mining. Furthermore, while EVs produce zero emissions on the road, their overall carbon footprint depends on how the electricity used to charge them is generated.
+
+Consumer acceptance is another critical factor. While EVs are growing in popularity, issues such as driving range, charging time, and upfront costs still deter some buyers. Automakers are investing heavily in research and development to address these barriers, with advances in battery technology promising longer ranges and faster charging.
+
+Despite obstacles, experts are optimistic. The International Energy Agency predicts that EV sales could account for over half of new car sales worldwide by 2040. As technology improves and costs decline, EVs are likely to reshape not only the auto industry but also energy systems and urban planning."
+TRUE_FALSE_QUESTION,"EVs have already replaced all petrol cars in Europe.",FALSE
+TRUE_FALSE_QUESTION,"Mining for EV materials can harm the environment.",TRUE
+TRUE_FALSE_QUESTION,"Advances in battery technology may help reduce charging times.",TRUE
+TRUE_FALSE_QUESTION,"Experts predict EVs will soon dominate global car sales.",NOTGIVEN
+FILL_BLANK_QUESTION,"What powers an electric vehicle instead of petrol? [BLANK]",,,,,,,,"batteries"
+FILL_BLANK_QUESTION,"What incentives do governments provide to encourage EV adoption? [BLANK]",,,,,,,,"subsidies"
+FILL_BLANK_QUESTION,"What factor influences the overall carbon footprint of EVs [BLANK]?",,,,,,,,"electricity generation"
+FILL_BLANK_QUESTION,"What global organisation forecasts EV sales growth? [BLANK]",,,,,,,,"International Energy Agency"
+
+PASSAGE,"The Ancient City of Petra","Carved into rose-red cliffs in modern-day Jordan, the city of Petra was once a thriving hub of trade and culture. Founded by the Nabataeans more than 2,000 years ago, Petra's strategic location along caravan routes enabled it to flourish as a centre for commerce. Traders passing through brought goods such as spices, silk, and incense, linking Arabia with the Mediterranean world.
+
+Petra is most famous for its remarkable architecture, particularly the Treasury (Al-Khazneh), with its ornate façade carved directly into sandstone rock. Beyond its monuments, Petra was an advanced city with sophisticated water management systems, including aqueducts and cisterns, that allowed its inhabitants to thrive in a desert environment.
+
+By the 4th century CE, Petra began to decline. Changing trade routes reduced its importance, while earthquakes damaged infrastructure. Eventually, the city was largely abandoned and forgotten by the wider world. It was only in 1812 that the Swiss explorer Johann Burckhardt rediscovered Petra, reintroducing it to Western audiences.
+
+Today, Petra is recognised as a UNESCO World Heritage Site and one of the New Seven Wonders of the World. It attracts millions of visitors annually, not only for its historical significance but also for its striking natural beauty. However, increased tourism presents challenges, as erosion and human impact threaten to damage the delicate sandstone structures. Preservation efforts are now vital to ensure Petra's survival for future generations."
+QUESTION,"Petra prospered mainly because of:","Rich natural resources","Its role in trade routes","Strong military power","Agricultural success",B
+QUESTION,"What feature made Petra especially impressive?","Glass windows","Wooden palaces","Rock-cut architecture","Bronze statues",C
+QUESTION,"Which factor contributed to Petra's decline?","Excessive rainfall","Invasion by Rome","Earthquakes and new trade routes","Sandstorms",C
+QUESTION,"Petra was rediscovered by:","An archaeologist","A local Bedouin","A Swiss explorer","A British soldier",C
+QUESTION,"A current threat to Petra is:","Natural disasters only","Tourism and erosion","Lack of visitors","Scarcity of water",B
+FILL_BLANK_QUESTION,"Petra, located in Jordan, was established by the [BLANK] more than two millennia ago.",,,,,,,,"Nabataeans"
+FILL_BLANK_QUESTION,"Its position along [BLANK] made it a major centre for trade.",,,,,,,,"caravan routes"
+FILL_BLANK_QUESTION,"Petra's most iconic monument is known as the [BLANK].",,,,,,,,"Treasury"
+FILL_BLANK_QUESTION,"Although the city once thrived, it declined due to earthquakes and the changing [BLANK].",,,,,,,,"trade routes"
+FILL_BLANK_QUESTION,"In modern times, Petra faces new risks from [BLANK].",,,,,,,,"tourism"
