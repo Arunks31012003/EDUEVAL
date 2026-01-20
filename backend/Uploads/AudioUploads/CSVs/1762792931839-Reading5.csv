@@ -1,0 +1,53 @@
+TYPE,VALUE,OPTION_A,OPTION_B,OPTION_C,OPTION_D,CORRECT_ANSWER,CORRECT_BLANK_1,CORRECT_BLANK_2,CORRECT_BLANK_3,CORRECT_BLANK_4
+PASSAGE,"Passage 1: Community Noticeboard
+Notice A: Yoga for Beginners – Classes start every Monday at 6 pm. First class free. Contact reception for details. 
+
+Notice B: Swimming Pool Maintenance – The pool will be closed from 10th–14th July for cleaning. Reopens 15th July. 
+
+Notice C: Job Opportunity – Part-time receptionist required. Apply at front desk with CV. Notice D: Lost & Found – A set of car keys was found in the gym on 2nd July. Collect from reception.",,,,,,,
+
+TRUE_FALSE_QUESTION,"The yoga class is free for everyone.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"The swimming pool will reopen on 10th July.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"Applicants for the receptionist job should submit their applications online.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"Lost property can be collected from reception.",,,,,"TRUE",,,
+TRUE_FALSE_QUESTION,"The community centre offers free swimming lessons.",,,,,"NotGiven",,,
+QUESTION,"Which notice mentions something being unavailable for a limited time?","Notice A","Notice B","Notice C","Notice D","B",,,,
+QUESTION,"Which notice offers an employment opportunity?","Notice A","Notice B","Notice C","Notice D","C",,,,
+QUESTION,"Which notice refers to a specific day in July?","Notice A","Notice B","Notice C","Notice D","D",,,,
+QUESTION,"Which notice encourages people to bring documents?","Notice A","Notice B","Notice C","Notice D","C",,,,
+FILL_BLANK_QUESTION,"The first [BLANK] class is free of charge.",,,,"yoga",,,yoga,
+FILL_BLANK_QUESTION,"The swimming pool will reopen on [BLANK] July.",,,,"15th",,,15th,
+FILL_BLANK_QUESTION,"The lost car keys can be collected from [BLANK].",,,,"reception",,,reception,
+
+PASSAGE,"Read the policy document below and answer Questions 13–26.
+Company employees are allowed to use the internet during working hours for professional purposes only. Accessing social media websites, streaming videos, or downloading music is prohibited. However, employees may use the internet for personal reasons during lunch breaks or after office hours. The company monitors all internet activity and violations may result in disciplinary action.",,,,,,,
+
+TRUE_FALSE_QUESTION,"Employees may use social media during their lunch break.",,,,,"TRUE",,,
+TRUE_FALSE_QUESTION,"Employees are never allowed to use the internet for personal reasons.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"The company does not monitor internet use.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"Disciplinary action may follow if the policy is broken.",,,,,"TRUE",,,
+TRUE_FALSE_QUESTION,"Music downloads are not permitted at work.",,,,,"TRUE",,,
+QUESTION,"The company allows internet use for:","Social media access during work","Work-related purposes","Streaming videos","Music downloads","B",,,,
+QUESTION,"When can employees use the internet for personal reasons?","At any time","During meetings","At lunch or after work","Only on weekends","C",,,,
+QUESTION,"What consequence might result from breaking the rules?","Salary increase","Job promotion","Disciplinary action","Extra holidays","C",,,,
+QUESTION,"What does the company monitor?","Emails only","Social media only","Internet activity","Phone calls","C",,,,
+QUESTION,"What is prohibited during working hours?","Checking emails","Watching videos","Writing reports","Doing research","B",,,,
+FILL_BLANK_QUESTION,"Internet use allowed only for [BLANK] purposes during work hours.",,,,"professional",,,professional,
+FILL_BLANK_QUESTION,"Employees may use the internet personally during [BLANK].",,,,"lunch breaks",,,lunch breaks,
+FILL_BLANK_QUESTION,"The company [BLANK] all online activities.",,,,"monitors",,,monitors,
+FILL_BLANK_QUESTION,"Violations can lead to [BLANK].",,,,"disciplinary action",,,disciplinary action,
+
+PASSAGE,"Read the passage and answer Questions 27–40.
+The earliest postal systems date back to ancient Persia, where messages were carried on horseback. In medieval Europe, messengers were employed by monarchs and merchants. With the growth of trade and empire, reliable postal services became essential. The introduction of the Penny Post in Britain in 1840 marked a revolution, making sending letters affordable to ordinary citizens. In the modern era, postal services have had to adapt to competition from electronic communication, but they remain important for delivering parcels and official documents.",,,,,,,
+
+TRUE_FALSE_QUESTION,"The first postal system began in Europe.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"In medieval Europe, only kings used postal messengers.",,,,,"FALSE",,,
+TRUE_FALSE_QUESTION,"Trade expansion increased the need for postal systems.",,,,,"TRUE",,,
+TRUE_FALSE_QUESTION,"The Penny Post was introduced in the 19th century.",,,,,"TRUE",,,
+TRUE_FALSE_QUESTION,"Today, postal services are mainly used for sending emails.",,,,,"FALSE",,,
+QUESTION,"Who used postal messengers in medieval Europe?","Only farmers","Only kings","Monarchs and merchants","Only armies","C",,,,
+QUESTION,"What was the purpose of the Penny Post?","To make sending letters cheaper","To replace trade routes","To promote horse travel","To end messenger services","A",,,,
+QUESTION,"In the modern era, postal services face competition from:","Trains","Electronic communication","Airplanes","Banking systems","B",,,,
+QUESTION,"What do postal services mainly deliver today?","Messages on horseback","Emails","Parcels and official documents","Trade agreements","C",,,,
+QUESTION,"The earliest postal system mentioned was in:","Persia","Britain","Rome","France","A",,,,
+FILL_BLANK_QUESTION,"The first postal services began in ancient [BLANK]. In Europe, both [BLANK] and merchants employed messengers. The [BLANK] Post in Britain made letters affordable for ordinary citizens. Today, postal systems continue to deliver [BLANK] despite competition from digital communication.",,,,,,"Persia", "Monarchs", "Penny", "parcels and official documents"

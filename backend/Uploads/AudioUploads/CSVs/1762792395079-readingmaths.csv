@@ -1,0 +1,11 @@
+TYPE,VALUE,OPTION_A,OPTION_B,OPTION_C,OPTION_D,OPTION_E,OPTION_F,OPTION_G,OPTION_H,CORRECT_ANSWER,CORRECT_BLANK_1,CORRECT_BLANK_2,CORRECT_BLANK_3
+QUESTION,"Complete the series: 100, 98, 95, 90, 83, ___",75,72,74,70,N/A,N/A,N/A,N/A,B,N/A,N/A,N/A
+QUESTION,"Find the next letters in the sequence: C, F, I, L, ___",M,N,O,P,N/A,N/A,N/A,N/A,O,N/A,N/A,N/A
+QUESTION,"If 'RED' is 672, and 'GREEN' is 16772, what is 'BLUE'?",4392,5392,3452,4372,N/A,N/A,N/A,N/A,A,N/A,N/A,N/A
+QUESTION,"A clock shows 3:00. If the minute hand points East, in which direction does the hour hand point?",West,North,South,East,N/A,N/A,N/A,N/A,B,N/A,N/A,N/A
+QUESTION,"If $A+B=12$, $A-B=4$. What are the values of A and B?",A=8, B=4,A=6, B=6,A=7, B=5,A=9, B=3,N/A,N/A,N/A,N/A,A,8,4,N/A
+QUESTION,"Choose the odd number: 121, 144, 225, 250",121,144,225,250,N/A,N/A,N/A,N/A,D,N/A,N/A,N/A
+QUESTION,"'Pen' is to 'Write' as 'Knife' is to:",Cut,Sharp,Metal,Dinner,N/A,N/A,N/A,N/A,A,N/A,N/A,N/A
+QUESTION,"P is the father of Q, and R is the son of S. S is the daughter of Q. How is P related to R?",Grandfather,Father,Uncle,Brother,N/A,N/A,N/A,N/A,A,N/A,N/A,N/A
+QUESTION,"The number of triangles in the given figure is (Assume a standard 3x3 grid figure to be referenced).",8,10,12,16,N/A,N/A,N/A,N/A,B,N/A,N/A,N/A
+QUESTION,"Statement: Buying a house is expensive. Conclusion: People should not buy houses. Is this conclusion logically derived?",Yes,No,Maybe,Insufficient data,N/A,N/A,N/A,N/A,B,N/A,N/A,N/A	
