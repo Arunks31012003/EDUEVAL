@@ -1,0 +1,11 @@
+TYPE,VALUE,OPTION_A,OPTION_B,OPTION_C,OPTION_D,CORRECT_ANSWER,CORRECT_BLANK_1,CORRECT_BLANK_2,CORRECT_BLANK_3
+Series,"Complete the series: 2, 5, 11, 20, ___, 47",32,34,36,38,32,N/A,N/A,N/A
+Analogy,"Blacksmith is to Anvil as Sculptor is to:",Chisel,Clay,Mallet,Stone,Mallet,N/A,N/A,N/A
+Deduction,"All A are B. Some B are C. No C is D. Conclusion: Some A are D. Is this conclusion logically certain?",True,False,Maybe,Impossible to tell,False,N/A,N/A,N/A
+Coding,"If APPLE is coded as BQQMF, how is GRAPE coded?",HSBQF,HSCRF,HSBSF,HSBQE,HSBQE,N/A,N/A,N/A
+Fill-in,"In the sequence 2, 4, 8, ___, 32, ___, 128, the missing numbers are:",12 and 64,16 and 64,16 and 96,12 and 96,16 and 64,16,64,N/A
+Odd One Out,"Find the number that doesn't fit the group: 125, 216, 343, 625",125,216,343,625,625,N/A,N/A,N/A
+Direction Sense,"A man walks 10 km North, turns East and walks 5 km, then turns South and walks 10 km. How far is he from the starting point?",0 km,15 km,5 km,25 km,5 km,N/A,N/A,N/A
+Blood Relations,"Pointing to a photograph, a man said, ""He is the son of the only daughter of my father's wife."" How is the man related to the person in the photograph?",Father,Brother,Uncle,Maternal Uncle,Maternal Uncle,N/A,N/A,N/A
+Syllogism,"Premise 1: All pencils are pens. Premise 2: Some pens are erasers. Conclusion: Some pencils are erasers. Is the conclusion definitely true?",True,False,Always,None of these,False,N/A,N/A,N/A
+Arithmetic,"If A+B=C and C is 15. If A is 5 less than B. What are the values of A and B?",A=8, B=7,A=6, B=9,A=5, B=10,A=7, B=8,A=5, B=10,5,10,N/A

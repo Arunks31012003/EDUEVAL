@@ -1,0 +1,67 @@
+TYPE,VALUE,OPTION_A,OPTION_B,OPTION_C,OPTION_D,OPTION_E,OPTION_F,CORRECT_ANSWER,CORRECT_BLANK_1,CORRECT_BLANK_2,CORRECT_BLANK_3
+PASSAGE,"Sleep is an essential biological function that occupies nearly a third of our lives, yet it remains one of the least understood processes in human physiology. During sleep, the body undergoes crucial restorative processes, from muscle repair to memory consolidation. Without sufficient sleep, humans experience a decline in cognitive performance, weakened immune response, and increased risk of chronic diseases. 
+
+Sleep is divided into two broad categories: rapid eye movement (REM) and non-REM sleep. Non-REM sleep is further divided into three stages, ranging from light to deep sleep. Deep sleep is especially important for physical recovery, while REM sleep plays a critical role in emotional regulation and learning. Dreams typically occur during REM sleep. 
+
+Modern lifestyles, however, are interfering with healthy sleep patterns. Exposure to artificial light, especially blue light from screens, disrupts the body’s natural circadian rhythms. Stress, long working hours, and excessive caffeine consumption also contribute to widespread sleep deprivation. According to the World Health Organization, nearly 40% of adults in developed countries fail to get the recommended 7–8 hours of sleep per night. 
+
+Researchers are also investigating the long-term consequences of insufficient sleep. Studies link chronic sleep deprivation to obesity, diabetes, cardiovascular disease, and even Alzheimer’s disease. Improving sleep hygiene, such as maintaining a consistent bedtime, reducing screen exposure before bed, and creating a dark, quiet sleeping environment, is recommended as a simple but effective intervention.",,,,,,
+
+TRUE_FALSE_QUESTION,"Fungi produce their own food through photosynthesis.",,,,,,,FALSE,,,
+TRUE_FALSE_QUESTION,"Some plants depend on fungi to survive.",,,,,,,TRUE,,
+TRUE_FALSE_QUESTION,"Dreams occur in deep non-REM sleep.",,,,,,,FALSE,,
+TRUE_FALSE_QUESTION,"Artificial light can disrupt circadian rhythms.",,,,,,,TRUE,,
+TRUE_FALSE_QUESTION,"The WHO reports that most adults sleep more than recommended.",,,,,,,FALSE,,
+TRUE_FALSE_QUESTION,"Poor sleep is linked to some chronic illnesses.",,,,,,,TRUE,,
+QUESTION,"What happens during deep sleep?","Dreaming","Emotional regulation","Physical recovery","Memory loss",,,C,,
+QUESTION,"Which factor is mentioned as a modern cause of poor sleep?","Cold temperatures","Screen exposure","Exercise","Hunger",,,B,,
+QUESTION,"According to the WHO, what percentage of adults lack adequate sleep?","10%","20%","30%","40%",,,D,,
+QUESTION,"Which disease is NOT mentioned as linked to poor sleep?","Diabetes","Heart disease","Alzheimer’s disease","Cancer",,,D,,
+FILL_BLANK_QUESTION,"Dreams occur mainly during [BLANK].",,,,,,,,REM sleep,,
+FILL_BLANK_QUESTION,"One method to improve sleep hygiene is maintaining a consistent [BLANK].",,,,,,,,Bedtime,,
+FILL_BLANK_QUESTION,"Lack of sleep can weaken the [BLANK] system.",,,,,,,,Immune,,
+
+PASSAGE,"The invention of printing marked a turning point in human civilization, revolutionising the spread of information. Before printing, manuscripts were copied by hand, a slow and error-prone process accessible only to the wealthy elite. The earliest known printing techniques originated in China, where woodblock printing was developed as early as the 7th century CE. 
+
+The most significant breakthrough, however, came in the mid-15th century with Johannes Gutenberg’s invention of the movable type printing press in Europe. Gutenberg’s system allowed individual letters to be rearranged and reused, dramatically speeding up book production and reducing costs. 
+
+The printing press facilitated the spread of ideas during the Renaissance and the Protestant Reformation, enabling knowledge to reach a wider audience. Literacy rates rose as books became affordable to more people. Governments and religious institutions, however, sometimes sought to control printed works through censorship. 
+
+Today, while digital media has transformed communication, printing continues to play an important role in education, publishing, and packaging industries. Modern printing technologies, such as 3D printing, are pushing the boundaries of what printing means, expanding its application into medicine, manufacturing, and design.",,,,,,,
+
+QUESTION,"Paragraph 1","i. Censorship and control","ii. Rise of literacy","iii. Printing before Gutenberg","iv. The role of 3D printing","v. Gutenberg’s innovation","vi. The impact of printing on society",C,,
+QUESTION,"Paragraph 2","i. Censorship and control","ii. Rise of literacy","iii. Printing before Gutenberg","iv. The role of 3D printing","v. Gutenberg’s innovation","vi. The impact of printing on society",E,,
+QUESTION,"Paragraph 3","i. Censorship and control","ii. Rise of literacy","iii. Printing before Gutenberg","iv. The role of 3D printing","v. Gutenberg’s innovation","vi. The impact of printing on society",F,,
+QUESTION,"Paragraph 4","i. Censorship and control","ii. Rise of literacy","iii. Printing before Gutenberg","iv. The role of 3D printing","v. Gutenberg’s innovation","vi. The impact of printing on society",D,,
+QUESTION,"Paragraphs 2 & 3 combined theme","i. Censorship and control","ii. Rise of literacy","iii. Printing before Gutenberg","iv. The role of 3D printing","v. Gutenberg’s innovation","vi. The impact of printing on society",B,,
+TRUE_FALSE_QUESTION,"Printing was first invented in Europe.",,,,,,,FALSE,,
+TRUE_FALSE_QUESTION,"Gutenberg’s invention reduced the cost of books.",,,,,,,TRUE,,
+TRUE_FALSE_QUESTION,"Governments always welcomed the spread of printed books.",,,,,,,FALSE,,
+TRUE_FALSE_QUESTION,"Printing today has applications beyond books.",,,,,,,TRUE,,
+FILL_BLANK_QUESTION,"Which country first developed woodblock printing?[BLANK]",,,,,,,,China,,
+FILL_BLANK_QUESTION,"Who invented the movable type printing press?[BLANK]",,,,,,,,Gutenberg,,
+FILL_BLANK_QUESTION,"During which historical period did printing help spread ideas?[BLANK]",,,,,,,,Reformation,,
+FILL_BLANK_QUESTION,"What modern form of printing is used in medicine?[BLANK]",,,,,,,,3D printing,,
+
+PASSAGE,"Mars has long fascinated humans, earning the nickname the ‘Red Planet’ due to its distinctive appearance. Telescopes revealed its surface features centuries ago, sparking speculation about canals and possible life. Modern space exploration, however, has provided concrete knowledge of the planet. 
+
+The first successful flybys of Mars were conducted in the 1960s by NASA’s Mariner missions. These revealed a dry, barren world with massive volcanoes, deep canyons, and polar ice caps. Later, landers such as Viking 1 and 2 in the 1970s conducted experiments to search for microbial life, though results were inconclusive. 
+
+In recent decades, rovers such as Spirit, Opportunity, Curiosity, and Perseverance have traversed the Martian surface, analyzing rocks and soil. Evidence suggests that Mars once had liquid water, raising the possibility that microbial life may have existed in the past. Current missions focus on preparing for potential human exploration. 
+
+Despite advances, challenges remain. Mars has a thin atmosphere, intense radiation, and extreme temperatures. Human missions would require advanced life-support systems and sustainable habitats. Nonetheless, Mars continues to be a prime candidate for future exploration and perhaps colonization.",,,,,,,
+
+QUESTION,"Why is Mars called the ‘Red Planet’?","Because of volcanic eruptions","Due to its appearance","Because of its distance from the Sun","Due to its thin atmosphere",,,B,,
+QUESTION,"Which missions first flew by Mars?","Viking","Perseverance","Mariner","Spirit",,,C,,
+QUESTION,"What feature was NOT discovered by early Mars missions?","Volcanoes","Oceans","Ice caps","Canyons",,,B,,
+QUESTION,"Which rover is currently active on Mars?","Spirit","Curiosity","Viking 1","Mariner 4",,,B,,
+QUESTION,"What environmental challenge makes Mars difficult for humans?","Strong winds","Abundant rainfall","Thin atmosphere","Constant earthquakes",,,C,,
+FILL_BLANK_QUESTION,"The first Mars flybys were conducted by the [BLANK] missions.",,,,,,,,Mariner,,
+FILL_BLANK_QUESTION,"The Viking landers searched for [BLANK].",,,,,,,,Microbial life,,
+FILL_BLANK_QUESTION,"Evidence suggests Mars once had [BLANK].",,,,,,,,Liquid water,,
+FILL_BLANK_QUESTION,"Future missions may prepare for human [BLANK].",,,,,,,,Exploration,,
+FILL_BLANK_QUESTION,"The Martian surface has been explored by robotic [BLANK].",,,,,,,,Rovers,,
+QUESTION,"Mars is sometimes called the Red Planet.","Paragraph 1","Paragraph 2","Paragraph 3","Paragraph 4",,,A,,
+QUESTION,"The Viking missions carried out experiments to detect life.","Paragraph 1","Paragraph 2","Paragraph 3","Paragraph 4",,,B,,
+QUESTION,"Rovers have found evidence of past water on Mars.","Paragraph 1","Paragraph 2","Paragraph 3","Paragraph 4",,,C,,
+QUESTION,"Human exploration would need advanced technology.","Paragraph 1","Paragraph 2","Paragraph 3","Paragraph 4",,,D,,

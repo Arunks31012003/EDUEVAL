@@ -1,0 +1,11 @@
+TYPE,VALUE,OPTION_A,OPTION_B,OPTION_C,OPTION_D,OPTION_E,OPTION_F,OPTION_G,OPTION_H,CORRECT_ANSWER,CORRECT_BLANK_1,CORRECT_BLANK_2,CORRECT_BLANK_3
+QUESTION,"The number series 3, 5, 9, 17, 33, ___, ___ follows a pattern. Find the two missing numbers.",65,63,61,67,49,59,47,57,A,65,129,"2n + 1 (Difference doubled)"
+QUESTION,"If 'TIGER' is coded as UJHFS, how is 'ZEBRA' coded?",AFCSB,AFCSK,YDAAZ,AFCRB,YFCSE,AFASB,YGCSP,YGCRP,D,AFCRB,"E+1, R+1, Y-1","+1, -1, +1, -1, +1"
+QUESTION,"Find the missing term: BAZ, DBY, FCX, HEW, ___",JGV,JEU,IGU,KGT,KGU,IGV,JGU,KJV,C,JGU,"I+2, J-1, U+2",JGU
+QUESTION,"A clock shows 4:30. The angle between the hour hand and the minute hand is:",45 degrees,35 degrees,60 degrees,75 degrees,50 degrees,80 degrees,70 degrees,65 degrees,A,45 degrees,"Angle = |(30H - 5.5M)|","Formula Used: |(30*4 - 5.5*30)|"
+QUESTION,"P is the mother of K. K is the sister of J. J is the father of B. How is P related to B?",Grandmother,Grandfather,Mother,Aunt,Great-Grandmother,Mother-in-law,Sister,Niece,A,Grandmother,"P is Mother","B is Grandson/daughter"
+QUESTION,"Which number is the odd one out? 13, 29, 41, 57, 71, 89, 97",29,57,71,89,13,41,97,All are primes,B,57,"The number 57","57 is not prime (3x19)"
+QUESTION,"In a row of children, P is 15th from the left and Q is 12th from the right. If there are 4 children between them, how many total children are in the row?",31,32,30,29,33,28,34,35,A,31,"15 + 12 + 4","L + R + Between"
+QUESTION,"Syllogism: P1: All trees are plants. P2: All plants are organisms. C: All trees are organisms. Is the conclusion Logically Valid?",Valid,Invalid,Maybe Valid,Not Applicable,Sometimes Invalid,Only P1 is True,Only P2 is True,Insufficient Data,A,Valid,All A are B,All B are C, All A are C
+QUESTION,"Analogy: 'Fahrenheit' is to 'Temperature' as 'Decibel' is to ___",Weight,Volume,Sound,Light,Pressure,Distance,Speed,Time,C,Sound,Decibel,Sound Level,"Unit of Measurement"
+QUESTION,"Fill the blanks: 4, 16, 36, ___, 100, ___, 196",64,81,121,144,169,128,256,150,A,64,144,"Even Squares","(2n)^2"
